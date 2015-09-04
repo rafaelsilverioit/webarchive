@@ -15,16 +15,15 @@ import science.rafael.utils.PropertyManager;
  * Mirror any website in Internet (Web) Archive
  * (read more: https://archive.org/about/)
  * 
- * Basically Internet Archive is a "museum" of
- * the internet, since it's early days.
+ * Basically Internet Archive is a "museum" of the internet, since it's early
+ * days.
  * 
- * It crawls the web indexing websites in different
- * times and saves mirrors that you may see whenever
- * you want. The interesting point is that you can
- * tell then which site they need to index and when.
- * That's what we do, but since their API doens't let
- * us save a mirror, I've decided to create this simple
- * code to create our mirror and return it in JSON format.
+ * It crawls the web indexing websites in different times and saves mirrors that
+ * you may see whenever you want. The interesting point is that you can tell
+ * then which site they need to index and when. That's what we do, but since
+ * their API doens't let us save a mirror, I've decided to create this simple
+ * code to create our mirror and return it with the original and the mirrored
+ * urls in JSON format.
  * 
  * @author Rafael Silvério Amaral
  * @email contato@rafael.science
